@@ -1,14 +1,73 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "14",
+               "short_name" : "14",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Via del Vantaggio",
+               "short_name" : "Via del Vantaggio",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roma",
+               "short_name" : "Roma",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Roma",
+               "short_name" : "Roma",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Città Metropolitana di Roma",
+               "short_name" : "RM",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Lazio",
+               "short_name" : "Lazio",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "00186",
+               "short_name" : "00186",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Via del Vantaggio, 14, 00186 Roma RM, Italy",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.9087589,
+               "lng" : 12.4755444
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.91010788029149,
+                  "lng" : 12.4768933802915
+               },
+               "southwest" : {
+                  "lat" : 41.90740991970849,
+                  "lng" : 12.4741954197085
+               }
+            }
+         },
+         "place_id" : "ChIJkYnSJ1ZgLxMRinaZxWR9ahk",
+         "plus_code" : {
+            "compound_code" : "WF5G+G6 Rome, Metropolitan City of Rome, Italy",
+            "global_code" : "8FHJWF5G+G6"
+         },
+         "types" : [ "establishment", "lodging", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
 }
